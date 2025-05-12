@@ -1,4 +1,4 @@
 
-$file = Get-Item -Path "image.jp"
+$file = Get-Item -Path "sample.jpg"
 Format-Hex $file
 
