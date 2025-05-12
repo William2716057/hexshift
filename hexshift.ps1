@@ -1,6 +1,4 @@
 
-$file = Get-Content -Path "image.jp"
+$file = Get-Item -Path "image.jp"
+Format-Hex $file
 
-$hex = Format-Hex $file
-
-Output $hex
